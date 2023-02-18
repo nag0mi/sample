@@ -7,7 +7,7 @@ async function callApi() {
     const headers = {
         'Content-Type' : 'application/json'
     };
-    const res = await fetch("https://hello-dpgh5e2bhq-an.a.run.app/analysis",{method,headers,body});
+    const res = await fetch("https://analyzesentiment-dpgh5e2bhq-an.a.run.app/",{method,headers,body});
     
     const users = await res.json();
     console.log(users)
