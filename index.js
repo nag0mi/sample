@@ -1,6 +1,6 @@
 async function callApi() {
     const obj = {
-        'text' : 'とても幸せな気分でいっぱいです．'
+        'text' : '今日はとてもいい天気だったので散歩をしました．最高の気分になりました．'
     };
     const method = "POST";
     const body = JSON.stringify(obj);
